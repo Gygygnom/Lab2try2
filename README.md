@@ -1,10 +1,10 @@
-[![CI/CD GitHub Actions](https://github.com/seekerk/gtest/actions/workflows/test-action.yml/badge.svg)](https://github.com/seekerk/gtest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/seekerk/gtest/badge.svg?branch=master)](https://coveralls.io/github/seekerk/gtest?branch=master)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
+[![CI/CD GitHub Actions](https://github.com/Gygygnom/Lab2try2/actions/workflows/test-action.yml/badge.svg)](https://github.com/Gygygnom/Lab2try2/actions/workflows/test-action.yml)
+[![Coverage Status](https://coveralls.io/repos/Gygygnom/Lab2try2/badge.svg?branch=master)](https://coveralls.io/github/Gygygnom/Lab2try2?branch=master)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Gygygnom_Lab2try2&metric=alert_status)](https://sonarcloud.io/dashboard?id=Gygygnom_Lab2try2)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Gygygnom_Lab2try2&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Gygygnom_Lab2try2)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Gygygnom_Lab2try2&metric=code_smells)](https://sonarcloud.io/dashboard?id=Gygygnom_Lab2try2)
 
-# Пример работы связки Qt + Google Test (gtest) + QtCreator
+# Пример работы связки Qt + Google Test (Lab2try2) + QtCreator
 
 ## Загрузка и запуск примера на локальном компьютере
 
@@ -12,7 +12,7 @@
 В ОС Ubuntu необходимо установить пакеты `qt5-default qt5-qmake qtcreator`. 
 В ОС Windows необходимо установить Qt и компилятор, например, mingw с помощью онлайн установщика https://www.qt.io/download-qt-installer
 2. Выполнить клонирование репозитория с помощью утилиты git (`git clone ....`).
-3. Для подгрузки gtest необходимо выполнить команды:
+3. Для подгрузки Lab2try2 необходимо выполнить команды:
 ```shell
 git submodule init
 git submodule update
@@ -62,7 +62,7 @@ git init
 2. Подключить репозиторий с своим проектом
 3. В настройках репозитория скопировать токен
 4. В настройках гитхаба в разделе `secrets - actions` создать ключ `coveralls_token` со значением токена
-5. Запустить github actions, проверить успешное выполнение задания gtest-tests
+5. Запустить github actions, проверить успешное выполнение задания Lab2try2-tests
 6. проверить появление статистики на coveralls.io
 7. Обновить бейдж покрытия в соответствии с названием профиля и репозитория
 
@@ -72,6 +72,6 @@ git init
 3. Скопировать токен проекта, в настройках github в разделе `secrets - actions` создать ключ `sonar_token` со значением токена
 4. продолжить настройку проекта на sonarcloud до раздела с конфигурационным файлом
 5. Изменить значения названия проекта и организации в файле sonar-project.properties в соответствии с предложенными
-6. Запустить github actions, проверить успешное выполнение задания gtest-tests
+6. Запустить github actions, проверить успешное выполнение задания Lab2try2-tests
 7. проверить появление результатов на sonarcloud
 8. Обновить бейджи статистик в соответствии с названием профиля и репозитория
